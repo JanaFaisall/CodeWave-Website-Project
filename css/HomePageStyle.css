@@ -1,0 +1,369 @@
+/* FONTS */
+@font-face {
+    font-family: Nunito-Medium;
+    src: url(/fonts/Nunito-Medium.ttf);
+}
+
+@font-face {
+    font-family: Nunito-ExtraBold;
+    src: url(/fonts/Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Nunito-Black;
+    src: url(/fonts/Nunito-Black.ttf);
+}
+
+/* FOR ALL */
+
+*{
+    scroll-behavior: smooth;
+  }
+
+body, footer {
+    font-family: Nunito-Medium;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Nunito-Black;
+}
+
+button {
+    background-color: #5483B3;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: Nunito-Medium;
+    font-weight: bold;
+    font-size:large;
+    height: 50px;
+    width: 100%;
+    transition: 0.7s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* NAVIGATION BAR SECTION*/
+
+.navigation-bar-section {
+    justify-content: space-between;
+    background-color: #FFFFFF; 
+    position: fixed;
+    height: auto;
+    width: 100%;
+    display: flex;
+    top: 0; /* always top */
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid #ccc;
+    flex-wrap: wrap;
+    
+}
+
+.navigation-bar-section ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.navigation-bar-section ul li {
+    display: inline;
+    float: left;
+    font-size: medium;
+}
+
+.navigation-bar-section ul li a {
+    display: block;
+    color: #052659;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.7s ease;
+}
+
+
+.navigation-bar-section li a:hover {
+    color: #5483B3;
+    transform: scale(1.1);
+  }
+    
+.navigation-bar-section ul .active {
+    color: #5483B3;
+  }
+
+img {
+   max-width: 100%;
+   max-height: auto;
+}
+
+#website-logo {
+    width: 200px;
+    height: auto;  
+   padding: 0px 10px; 
+}
+
+.navigation-bar-right{
+    margin-right: 50px;
+    display: flex;
+}
+
+#login-btn{
+    background-color: #FFFFFF;
+    color: #052659;
+    white-space: nowrap;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+#signup-btn{
+    background-color: #052659;
+    color: #FFFFFF;
+    white-space: nowrap;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+/* WELCOME SECTION */
+
+.welcome-section {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 10vw 10vw 10vw 10vw;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+    gap: 1vw;
+}
+.inside {
+    background-color: #FFFFFF;
+    width: auto;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#welcome-image {
+    height: 30vw;
+    width: 30vw;
+}
+
+.welcome-texts {
+  padding-top: 4vw;
+}
+
+#title{ 
+    color: #5483B3;    
+}
+
+#description-of-title {
+    line-height: 2;
+    color: #052659;
+}
+
+.highlight{
+    color: #5483B3; 
+    font-weight: bold;
+    font-family: Nunito-Black; 
+}
+
+/* WHY US? SECTION */
+
+#why-us-section {
+    background-color: #052659;
+    justify-content: center;
+    padding: 10vw 10vw 10vw 10vw;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+}
+
+.cards .cards-title {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: Nunito-Black;
+    padding-bottom: 4vw;
+}
+
+.cards .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #052659;
+    
+}
+
+.cards .content .card {
+    background-color: #FFFFFF;
+    width: 15em;
+    box-shadow: 0 5px 25px #021024;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.cards .content .card:hover {
+    transform: scale(1.1);
+}
+
+.cards .content .card .icon {
+    padding-left: 5em;
+    padding-right: 5em;
+    display: flex;
+}
+
+.cards .content .card .title {
+    text-align: center;
+    font-family: Nunito-ExtraBold;
+}
+
+.cards .content .card .description {
+    text-align: center;
+}
+
+/* COURSES PREVIEW SECTION */
+
+#courses-preview-section {
+    background-color: #FFFFFF;
+    justify-content: center;
+    justify-items: center;
+    padding: 10vw 10vw 10vw 10vw;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+}
+
+#courses-preview-section .cards-title{
+    padding: 0px;
+    color: #5483B3;
+}
+
+#courses-preview-section .content{
+    gap: 15px;
+    
+}
+
+#courses-preview-section .content .card{
+    width: 190px;
+    padding: 10px;
+    margin: 5px;
+    justify-items: center;
+    height: auto;
+    overflow: hidden;
+    box-shadow: -5px 5px 0px #5483B3;
+    border: 2px solid #5483B3;
+    
+}
+
+#courses-preview-section .content .card .image{
+    object-fit: cover;
+    padding: 10px 10px;
+    width: 150px;
+}
+
+#courses-preview-section .content .card .title{
+    color: #052659;
+    border-top: 2px solid #ccc;
+}
+
+#courses-preview-section .content .card .teacher{
+    font-weight: bold;
+    color: #5483B3;
+}
+
+#courses-preview-section .content .card .footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#see-all-courses-btn{
+    background-color: #FFFFFF;
+    color: #5483B3;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #052659;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+    gap: 1vw;
+}
+
+footer #website-logo{
+    padding-top: 20px;
+    padding-left: 0px;
+
+}
+
+footer .footer-items{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+footer .footer-items .pages { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer .footer-items .pages li {
+    display: inline;
+    float: left;
+    font-size: medium;
+}
+
+footer .footer-items .pages li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px 14px 2px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.7s ease;
+}
+
+footer .footer-items .pages li a:hover {
+    color: #5483B3;
+    transform: scale(1.1);
+  }
+
+footer .footer-items .move-to-head{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #5483B3;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+footer .footer-items .socials{
+    padding: 4px 0px;
+}
+
+
+
+
+
+      
+
+  
