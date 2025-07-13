@@ -1,20 +1,22 @@
-## CodeWave Website
+## **CodeWave Website**
 
 A simple front-end website created by a student team to showcase club activities and answer common questions.
 
-### Tools
+### 🔧 Tools:
 - HTML  
 - CSS
 
-### My Work
+### ✏️ My Work:
 - Designed and built the **Home** and the **FACs (Frequently Asked Questions)** Pages
 
-### Focused on:
+### 🔍 Focused on:
   - Clean layout  
   - Responsive design  
   - Easy navigation
 
-### Images
+
+### 📸 Images:
+
 - **Home Page**
 ![Home Page Image](HomePage.jpeg)
 
