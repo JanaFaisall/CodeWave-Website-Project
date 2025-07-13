@@ -15,7 +15,8 @@ A simple front-end website created by a student team to showcase club activities
   - Easy navigation
 
 ### Images
-- Home Page
+- **Home Page**
 ![Home Page Image](HomePage.jpeg)
-- FAQs Page
+
+- **FAQs Page**
 ![FAQs Page Image](FAQsPage.jpeg)
