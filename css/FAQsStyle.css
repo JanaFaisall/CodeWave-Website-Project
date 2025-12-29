@@ -1,17 +1,17 @@
 /* FONTS */
 @font-face {
     font-family: Nunito-Medium;
-    src: url(fonts/Nunito-Medium.ttf);
+    src: url("fonts/Nunito-Medium.ttf");
 }
 
 @font-face {
     font-family: Nunito-ExtraBold;
-    src: url(fonts/Nunito-ExtraBold.ttf);
+    src: url("fonts/Nunito-ExtraBold.ttf");
 }
 
 @font-face {
     font-family: Nunito-Black;
-    src: url(fonts/Nunito-Black.ttf);
+    src: url("fonts/Nunito-Black.ttf");
 }
 
 /* FOR ALL */
