@@ -1,4 +1,5 @@
 ## **CodeWave Website**
+Project Duration: April 2025
 
 Developed the Home and FAQ pages as part of a full-stack educational website, focusing on the front-end using HTML and CSS.
 Contributed to a team-based system that includes admin and student dashboards, with backend and database components implemented by other team members.
