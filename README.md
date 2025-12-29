@@ -1,6 +1,7 @@
 ## **CodeWave Website**
 
-A simple front-end website created by a student team to showcase club activities and answer common questions.
+Developed the Home and FAQ pages as part of a full-stack educational website, focusing on the front-end using HTML, CSS, and JavaScript.
+Contributed to a team-based system that includes admin and student dashboards, with backend and database components implemented by other team members.
 
 ### 🔧 Tools:
 - HTML  
