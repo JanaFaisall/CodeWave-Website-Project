@@ -22,7 +22,7 @@ Contributed to a team-based system that includes admin and student dashboards, w
 ### 📸 Images:
 
 - **Home Page**
-![Home Page Image](HomePage.jpeg)
+![Home Page Image](README_IMAGES/HomePage.jpeg)
 
 - **FAQs Page**
-![FAQs Page Image](FAQsPage.jpeg)
+![FAQs Page Image](README_IMAGES/FAQsPage.jpeg)
