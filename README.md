@@ -6,15 +6,15 @@ Contributed to a team-based system that includes admin and student dashboards, w
 
 ---
 
-### ✏️ My Work:
+## ✏️ My Work:
 - Designed and built the **Home** and the **FAQs (Frequently Asked Questions)** Pages
 
-### 🔍 Focused on:
+## 🔍 Focused on:
   - Clean layout  
   - Responsive design  
   - Easy navigation
 
-  ### 🔧 Tools:
+## 🔧 Tools:
 - HTML  
 - CSS
 
@@ -25,7 +25,7 @@ https://janafaisall.github.io/CodeWave/
 
 ---
 
-### 📸 Images:
+## 📸 Images:
 
 - **Home Page**
 ![Home Page Image](README_IMAGES/HomePage.jpeg)
